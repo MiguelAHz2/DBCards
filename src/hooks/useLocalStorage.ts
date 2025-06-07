@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 
-type SetConstructor = new <T>(values?: readonly T[] | null) => Set<T>;
-
 export function useLocalStorage<T>(key: string, initialValue: T): [T, (value: T | ((prev: T) => T)) => void] {
   // Función para manejar la conversión de Set a/desde JSON
   const parseItem = (item: string | null): T => {

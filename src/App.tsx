@@ -160,10 +160,6 @@ function App() {
     setShowFavorites(!showFavorites);
   };
 
-  const handleSearch = useCallback((search: string) => {
-    updateSearchTerm(search);
-  }, [updateSearchTerm]);
-
   const filteredCards = useMemo(() => {
     let result = [...mockCards];
 

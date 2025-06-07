@@ -1,54 +1,114 @@
-# React + TypeScript + Vite
+# 🐉 Dragon Ball Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="src/assets/images/goku.jpg" alt="Dragon Ball Cards" width="200"/>
+  <br/>
+  <p><em>Una aplicación web interactiva que muestra las cartas de los personajes más icónicos de Dragon Ball</em></p>
+</div>
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Diseño Moderno y Responsivo**
+  - Interfaz de usuario elegante y adaptable
+  - Animaciones suaves y transiciones fluidas
+  - Modo oscuro/claro integrado
+  - Efectos visuales atractivos en las cartas
 
-## Expanding the ESLint configuration
+- 🔍 **Funcionalidades**
+  - Búsqueda dinámica de personajes
+  - Filtrado por raza y categoría
+  - Sistema de favoritos persistente
+  - Detalles completos de cada personaje
+  - Ordenamiento flexible por diferentes criterios
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 💎 **Características Técnicas**
+  - Construido con React + TypeScript
+  - Estilizado con Material-UI (MUI)
+  - Animaciones con Framer Motion
+  - Estado global eficiente
+  - Componentes reutilizables
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tecnologías Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ⚛️ **React 18**
+- 📘 **TypeScript**
+- 🎨 **Material-UI (MUI)**
+- 🌗 **Tema Personalizado**
+- 🎬 **Framer Motion**
+- 📱 **Diseño Responsivo**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Instalación y Uso
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/MiguelAHz2/DBCards.git
+   cd DBCards
+   ```
+
+2. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar el servidor de desarrollo**
+   ```bash
+   npm run dev
+   ```
+
+4. **Abrir en el navegador**
+   ```
+   http://localhost:5173
+   ```
+
+## 📱 Capturas de Pantalla
+
+<div align="center">
+  <img src="src/assets/images/screenshot1.png" alt="Vista Principal" width="45%"/>
+  <img src="src/assets/images/screenshot2.png" alt="Detalles del Personaje" width="45%"/>
+</div>
+
+## 🌟 Características Destacadas
+
+### Sistema de Cartas
+- Visualización elegante de personajes
+- Efectos de hover interactivos
+- Indicadores de poder dinámicos
+- Transiciones suaves
+
+### Modal de Detalles
+- Información completa del personaje
+- Diseño inmersivo
+- Animaciones fluidas
+- Estadísticas detalladas
+
+### Filtros y Búsqueda
+- Búsqueda en tiempo real
+- Filtros por categoría y raza
+- Sistema de ordenamiento
+- Gestión de favoritos
+
+## 🎯 Próximas Mejoras
+
+- [ ] Implementación de backend
+- [ ] Sistema de autenticación
+- [ ] Más personajes y categorías
+- [ ] Efectos de partículas personalizados
+- [ ] Modo batalla entre cartas
+
+## 👨‍💻 Desarrollador
+
+**Miguel Alvarez**
+- [GitHub](https://github.com/MiguelAHz2)
+- [LinkedIn](https://linkedin.com/in/miguel-jose-alvarez-henriquez-391144191)
+- [WhatsApp](https://wa.me/573239377429)
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+<div align="center">
+  <p>Desarrollado con ❤️ por Miguel Alvarez</p>
+  <p>© 2024 Dragon Ball Cards</p>
+</div>

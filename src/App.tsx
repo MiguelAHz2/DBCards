@@ -1,4 +1,4 @@
-import { useMemo, useCallback } from 'react'
+import { useMemo } from 'react'
 import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import { MainLayout } from './components/layout/MainLayout'
